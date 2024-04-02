@@ -1,6 +1,5 @@
 # Object-Oriented-Programming-in-Java
 
-References: [Geeksforgeeks](https://www.geeksforgeeks.org/java/) , [javabeginnerstutorial](https://javabeginnerstutorial.com/core-java-tutorial/)
 
 
 **JAVA IS A PLATFORM-INDEPENDENT LANGUAGE**
@@ -11,7 +10,7 @@ The codes written in Java are converted into an intermediate level language call
 
 An identifier can be a method name,class name,variable name or label.
 
-**Code1::[FirstProgramme.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/FirstProgramme.java):** 
+**Code1::[FirstProgramme.java](FirstProgramme.java):** 
 
 In this Code,there are 5 identifiers:
 
@@ -58,23 +57,23 @@ An object is an instance of a class.Technically, Class is a template which descr
 
 When an object of a class is created, the class is said to be **instantiated**. All the instances share the attributes and the behavior of the class. But the values of those attributes, i.e. the state are unique for each object. A single class may have any number of instances.
 
-**PACKAGE:[Class and objects](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Classes%20and%20objects):**
+**PACKAGE:[Class and objects](/tree/master/Classesandobjects):**
 
-**Code1:[CreatingObjects1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/Creatingobjects1.java):** Shows the creation of object using 'new' keyword.The new operator instantiates a class by allocating memory for a new object and returning a reference to that memory.
+**Code1:[CreatingObjects1.java](Creatingobjects1.java):** Shows the creation of object using 'new' keyword.The new operator instantiates a class by allocating memory for a new object and returning a reference to that memory.
 
-**Code2:[Constructor.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/Constructor.java) :** Shows the creation and invoking of a constructor.The new operator also invokes the class constructor.
+**Code2:[Constructor.java](Constructor.java) :** Shows the creation and invoking of a constructor.The new operator also invokes the class constructor.
 
-**Code3:[CreatingObjects2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/Creatingobjects2.java):** Shows the creation of object and accessing class members without creating a constructor.
+**Code3:[CreatingObjects2.java](Creatingobjects2.java):** Shows the creation of object and accessing class members without creating a constructor.
 
-**Code4:[GuessingGame.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/GuessingGame.java):** A simple game implemented using classes and objects.
+**Code4:[GuessingGame.java](GuessingGame.java):** A simple game implemented using classes and objects.
 
-**Code5:[OrderOfExecution.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/OrderOfExecution.java):** Shows the order of execution of static anonymous and init(constructor) block.From the output of this code it can be seen that STATIC block will execute only once when class gets loaded.But Anonymous block and Constructor will run every time object of a Class gets created. Init block will get executed first and then constructor.
+**Code5:[OrderOfExecution.java](OrderOfExecution.java):** Shows the order of execution of static anonymous and init(constructor) block.From the output of this code it can be seen that STATIC block will execute only once when class gets loaded.But Anonymous block and Constructor will run every time object of a Class gets created. Init block will get executed first and then constructor.
 
-**Code6:[SwapObjects.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/SwapObjects.java):** code to swap two objects of the same class with only one class member.
+**Code6:[SwapObjects.java](SwapObjects.java):** code to swap two objects of the same class with only one class member.
 
-**Code7:[SwapObjects2problem.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/SwapObjects2Problem.java):** Code shows the problem to swap two objects of a class with more than one class members if we use the same way used in Code6.
+**Code7:[SwapObjects2problem.java](SwapObjects2Problem.java):** Code shows the problem to swap two objects of a class with more than one class members if we use the same way used in Code6.
 
-**Code8:[SwapObjects2Solution.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/SwapObjects2Solution.java):** Code shows the solution to Code7 problem using Wrapper class.A wrapper class solution works even if the user class doesn’t have access to members of the class whose objects are to be swapped.
+**Code8:[SwapObjects2Solution.java](SwapObjects2Solution.java):** Code shows the solution to Code7 problem using Wrapper class.A wrapper class solution works even if the user class doesn’t have access to members of the class whose objects are to be swapped.
 
 
 # METHODS:
@@ -106,35 +105,35 @@ Methods calls are implemented through stack. Whenever a method is called a stack
 
 **Java is strictly pass by value**:
 
-**PACKAGE:[Methods](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Methods):**
+**PACKAGE:[Methods](tree/master/Methods):**
 
-**Code1:[PassByValue1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/PassByValue1.java):** We pass an int to the function “change()” and as a result the change in the value of that integer is not reflected in the main method.Java creates a copy of the variable being passed in the method and then do the manipulations. Hence the change is not reflected in the main method.
+**Code1:[PassByValue1.java](Methods/PassByValue1.java):** We pass an int to the function “change()” and as a result the change in the value of that integer is not reflected in the main method.Java creates a copy of the variable being passed in the method and then do the manipulations. Hence the change is not reflected in the main method.
 
 In Java, all non-primitives (or objects of any class) are always references. Java creates a copy of references and pass it to method, but they still point to same memory reference. Mean if set some other object to reference passed inside method, the object from calling method as well its reference will remain unaffected.
 
 
-**Code2:[PassingObjects1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/PassingObjects1.java):** A program to show that references are also passed by value. 
+**Code2:[PassingObjects1.java](Methods/PassingObjects1.java):** A program to show that references are also passed by value. 
 
 If we do not change the reference to refer some other object (or memory location), we can make changes to the members and these changes are reflected back.
 
-**Code3:[PassingObjects2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/PassingObjects2.java):** A program to show that we can change members of a reference if we do not change the reference itself.
+**Code3:[PassingObjects2.java](Methods/PassingObjects2.java):** A program to show that we can change members of a reference if we do not change the reference itself.
 
 Java doesnot support returning multiple values by a method
 
-**Code4:[ReturningValues1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/ReturningValues1.java):** Returning multiple values using array.
+**Code4:[ReturningValues1.java](ReturningValues1.java):** Returning multiple values using array.
 
-**Code5:[ReturningValues2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/ReturningValues2.java):** Returning multiple values by returning object.
+**Code5:[ReturningValues2.java](ReturningValues2.java):** Returning multiple values by returning object.
 
-**Code6:[ReturningValues3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/ReturningValues3.java):** Returning multiple values by using List Object class
+**Code6:[ReturningValues3.java](ReturningValues3.java):** Returning multiple values by using List Object class
 
 When we pass a primitive type to a method, it is passed by value. But when we pass an object to a method, the situation changes dramatically, because objects are passed by what is effectively call-by-reference. Java does what’s sort of a hybrid between pass-by-value and pass-by-reference. Basically, a parameter cannot be changed by the function, but the function can ask the parameter to change itself via calling some method within it.
 
 While creating a variable of a class type, we only create a reference to an object. Thus, when we pass this reference to a method, the parameter that receives it will refer to the same object as that referred to by the argument.This effectively means that objects act as if they are passed to methods by use of call-by-reference.Changes to the object inside the method do reflect in the object used as an argument.
 
 
-**Code8:[PassingObjects3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/PassingObjects3.java):** Another Program to illustrate passing object to methods.
+**Code8:[PassingObjects3.java](PassingObjects3.java):** Another Program to illustrate passing object to methods.
 
-**Code9:[ReturningObjects.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/ReturningObjects.java):** A program to illustrate method returning object.
+**Code9:[ReturningObjects.java](ReturningObjects.java):** A program to illustrate method returning object.
 
 ### METHOD OVERLOADING:
 
@@ -145,7 +144,7 @@ Priority wise, compiler take these steps when the exact Prototype doesnot match 
 1.Type Conversion but to higher type(in terms of range) in same family.
 2.Type conversion to next higher family(suppose if there is no long data type available for an int data type, then it will search for the float data type).
 
-**Code10:[MethodOverloading1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/MethodOverloading1.java):** A program to illustrate how method Overloading works.
+**Code10:[MethodOverloading1.java](MethodOverloading1.java):** A program to illustrate how method Overloading works.
 
 We can overload two or more static methods with same name, but differences in input parameters.We cannot overload two methods in Java if they differ only by static keyword (number of parameters and types of parameters is same). 
 
@@ -157,19 +156,19 @@ Hence Method overloading can be done by changing:
     2.The data types of the parameters of methods.
     3.The Order of the parameters of methods.
     
-**Code11:[MethodOverloading2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/MethodOverloading2.java):** A program to illustrate method overloading by changing the order of parameters in the methods.
+**Code11:[MethodOverloading2.java](MethodOverloading2.java):** A program to illustrate method overloading by changing the order of parameters in the methods.
 
-**Code12:[NullError.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/NullError.java):** In this Code the method arguments Integer and String both are not primitive data types in Java. That means they accept null values. When we pass a null value to the method1 the compiler gets confused which method it has to select, as both are accepting the null.
+**Code12:[NullError.java](Methods/NullError.java):** In this Code the method arguments Integer and String both are not primitive data types in Java. That means they accept null values. When we pass a null value to the method1 the compiler gets confused which method it has to select, as both are accepting the null.
 
-**Code13:[NullErrorSolution.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/NullErrorSolution.java):** A Solution to the problem which occured in **Code12**.
+**Code13:[NullErrorSolution.java](Methods/NullErrorSolution.java):** A Solution to the problem which occured in **Code12**.
 
-**Code14:[MainOverloading.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/MainOverloading.java):** A program to illustrate overloading main method.
+**Code14:[MainOverloading.java](Methods/MainOverloading.java):** A program to illustrate overloading main method.
 
-**Code15:[Varargs.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/Varargs.java):** A variable-length argument is specified by three periods(…).This syntax tells the compiler that a method varargs( ) can be called with zero or more arguments. As a result, here x is implicitly declared as an array of type int[].
+**Code15:[Varargs.java](Methods/Varargs.java):** A variable-length argument is specified by three periods(…).This syntax tells the compiler that a method varargs( ) can be called with zero or more arguments. As a result, here x is implicitly declared as an array of type int[].
 
-**Code16:[VarargsMethodOverloading.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/VarargsMethodOverloading.java):** A Program to show method Overloading in methods with variable-length argument.
+**Code16:[VarargsMethodOverloading.java](Methods/VarargsMethodOverloading.java):** A Program to show method Overloading in methods with variable-length argument.
 
-**Code17:[AmbiguousVarargsMethodOverloading.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/AmbiguousVarargsMethodOverloading.java):** A Program to illustrate ambiguity while overloading method with variable-length arguments.
+**Code17:[AmbiguousVarargsMethodOverloading.java](AmbiguousVarargsMethodOverloading.java):** A Program to illustrate ambiguity while overloading method with variable-length arguments.
 
 There are 3 phases used in overload resolution: First phase performs overload resolution without permitting boxing or unboxing conversion, Second phase performs overload resolution while allowing boxing and unboxing and Third phase allows overloading to be combined with variable arity methods, boxing, and unboxing. If no applicable method is found during these phases, then ambiguity occurs.
 
@@ -177,17 +176,17 @@ There are 3 phases used in overload resolution: First phase performs overload re
 
 When a method in a subclass has the same name, same parameters declaration and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to override the method in the super-class.
 
-**Code18:[MethodOverriding1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/MethodOverriding1.java):** A simple program to demonstrate Method overriding in java.
+**Code18:[MethodOverriding1.java](MethodOverriding1.java):** A simple program to demonstrate Method overriding in java.
 
-**Code19:[MethodOverriding2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/MethodOverriding2.java):**  The access modifier for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the super-class can be made public, but not private, in the subclass. Doing so, will generate compile-time error.
+**Code19:[MethodOverriding2.java](MethodOverriding2.java):**  The access modifier for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the super-class can be made public, but not private, in the subclass. Doing so, will generate compile-time error.
 
 Private methods cannot be overridden as they are bonded during compile time. Therefore we can’t even override private methods in a subclass.
 
 It is possible to have different return type for a overriding method in child class, but child’s return type must be sub-type of parent class’ return type. This is known as covariant return type.
 
-**Code20:[MethodOverriding3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/MethodOverriding3.java):** A program to demonstrate that parent class overriden method can be called in overriding method of sub class using super keyword.
+**Code20:[MethodOverriding3.java](MethodOverriding3.java):** A program to demonstrate that parent class overriden method can be called in overriding method of sub class using super keyword.
 
-**Code21:[EqualsOverriding.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/EqualsOverriding.java):** A program which overrides equals() method of Object class of java to find if two different objects of a same class are equal or not.
+**Code21:[EqualsOverriding.java](EqualsOverriding.java):** A program which overrides equals() method of Object class of java to find if two different objects of a same class are equal or not.
 
 ### DYNAMIC METHOD DISPATCH/RUN-TIME POLYMORPHISM:
 
@@ -199,7 +198,7 @@ Method Overriding is one of the ways in which Java supports Run-time polymorphis
 
 3.A superclass reference variable reffering to a subclass object is known as upcasting.
 
-**Code22:[DynamicMethodDispatch1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Methods/DynamicMethodDispatch1.java):** A Java program to illustrate Dynamic Method Dispatch using hierarchical inheritance.
+**Code22:[DynamicMethodDispatch1.java](DynamicMethodDispatch1.java):** A Java program to illustrate Dynamic Method Dispatch using hierarchical inheritance.
 
 In Java, we can override methods only, not the variables(data members), so runtime polymorphism cannot be achieved by data members.
 
@@ -213,7 +212,7 @@ The **java.lang.System.exit()** method exits current program by terminating runn
 
 Constructors are used for initializing new objects. Constructors does not return any values but implicitly it returns the object of the class. Fields are variables that provides the state of the class and its objects, and methods are used to implement the behavior of the class and its objects.
 
-**PACKAGE:[Constructors](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Constructors)**
+**PACKAGE:[Constructors](Constructors)**
 
 **Constructors cannot be Inherited:**
 
@@ -223,21 +222,21 @@ When a class extends another class,the child class inherits the variables ,metho
 
 Java creates a default constructor automatically if no default or parameterized constructor is created by user.The default constructor in java initializes the member data variables to default values
 
-**Code1:[DefaultContructor.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Constructors/DefaultConstructor.java):** A program to illustrate the behaviour of default constructors.
+**Code1:[DefaultContructor.java](DefaultConstructor.java):** A program to illustrate the behaviour of default constructors.
 
 **Copy Constructor:**
 Java supports copy constructor but doesn't create a default copy of constructor if user doesn't create one.
 
-**Code2:[CopyConstructor.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Constructors/CopyConstructor.java):** A program to illustrate the use of copy constructor
+**Code2:[CopyConstructor.java](CopyConstructor.java):** A program to illustrate the use of copy constructor
 
 ### CONSTRUCTOR CHAINING:
 
 Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
 Constructor chaining can be done in two ways:
 
-  1.**Within same class:** It can be done using this() keyword for constructors in same class.See  [this2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this2.java)
+  1.**Within same class:** It can be done using this() keyword for constructors in same class.See  [this2.java](this2.java)
     
-  2.**From base class:** by using super() keyword to call constructor from the base class.See [superWithConstructor.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Super%20keyword/superWithConstructor.java)
+  2.**From base class:** by using super() keyword to call constructor from the base class.See [superWithConstructor.java](superWithConstructor.java)
 
 This process is used when we want to perform multiple tasks in a single constructor. Rather than creating a code for each task in a single constructor we create a separate constructor for each task and make their chain which makes the program more readable.
 
@@ -255,7 +254,7 @@ We can use private constructors for 1. Internal Constructor Chaining 2. Singleto
 A singleton class is a class that can have not more than a single object.
 After first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created. So whatever modifications we do to a variable inside the class through any instance, it affects the variable of the single instance created and is visible if we access that variable through any instance of that class.
 
-**Code3:[PrivateConstructor.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Constructors/PrivateConstructor.java):** A program to illustrate singleton class using Private constructor.
+**Code3:[PrivateConstructor.java](PrivateConstructor.java):** A program to illustrate singleton class using Private constructor.
 
 To design a singleton class:
 
@@ -282,9 +281,9 @@ By contrast, Methods cannot be used to create an Instance of a Class.
 
 In java,it is possible to define two or more constructor of the same class that obviously share the same name but their parameter declaration are different either in terms of number of parameters or type of the parameters or both.This process is called Constructor Overloading.
 
-**Code4:[ConstructorOverloading.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Constructors/ConstructorOverloading.java):** Java program to demostrate constructor overloading.
+**Code4:[ConstructorOverloading.java](ConstructorOverloading.java):** Java program to demostrate constructor overloading.
 
-See more on contructors: [Rules And Properties of Constructor](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Classes%20and%20objects/RulesAndPropertiesOfConstructor.txt)
+See more on contructors: [Rules And Properties of Constructor](RulesAndPropertiesOfConstructor.txt)
 
 # ENCAPSULATION:
 
@@ -294,7 +293,7 @@ Encapsulation is the mechanism that binds together code and the data it manipula
     2.As in encapsulation, the data in a class is hidden from other classes, so it is also known as data-hiding.
     3.Encapsulation can be achieved by: Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
 
-**Code 2::[Encapsulation.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Encapsulation.java):** Java Program to illustrate encapsulation.
+**Code 2::[Encapsulation.java](Encapsulation.java):** Java Program to illustrate encapsulation.
 
 #### Advantages of Encapsulation:
 
@@ -322,7 +321,7 @@ In java, abstraction is achieved by interfaces and abstract classes. We can achi
     There can be no object of an abstract class.That is, an abstract class can not be directly instantiated with the new operator.
     An abstract class can have parametrized constructors and default constructor is always present in an abstract class.
 
-Code:**[Abstraction.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Abstraction.java)** :Abstraction implemented using Abstract class and abstract methods.
+Code:**[Abstraction.java](Abstraction.java)** :Abstraction implemented using Abstract class and abstract methods.
 
 # PACKAGES:
 
@@ -388,7 +387,7 @@ These are the packages that are defined by the user. First we create a directory
 
 Static import is a feature introduced in Java programming language ( versions 5 and above ) that allows members ( fields and methods ) defined in a class as public static to be used in Java code without specifying the class in which the field is defined.
 
-**Code3::[StaticImport.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/StaticImport.java):** A program to illustrate how Static import works.
+**Code3::[StaticImport.java](StaticImport.java):** A program to illustrate how Static import works.
 
 # INTERFACES:
 
@@ -412,24 +411,24 @@ Interface looks like a class and has variables and methods declaration like that
   
   5.Abstract classes may contain non-final variables, whereas variables in interface are final, public and static.
   
- **PACKAGE:[Interface](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Interface):**
+ **PACKAGE:[Interface](Interface):**
  
- **Code1:[Interface1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/Interface1.java):** A simple java program to illustrate use of Interface.
+ **Code1:[Interface1.java](Interface1.java):** A simple java program to illustrate use of Interface.
 
-**Code2:[Interface2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/Interface2.java):** A simple program to show that we can now define static methods in interfaces(JDK 8 onwards) which can be called independently without an object.These methods are not inherited. 
+**Code2:[Interface2.java](Interface2.java):** A simple program to show that we can now define static methods in interfaces(JDK 8 onwards) which can be called independently without an object.These methods are not inherited. 
 
-Read more on Interface **[here](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/MoreAboutInterface.txt)**
+Read more on Interface **[here](MoreAboutInterface.txt)**
 
 Inheritence can be extended or inherited.
 
-**Code3:[Interface3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/Interface3.java):** A Java program to show Interface can be extended.
+**Code3:[Interface3.java](Interface3.java):** A Java program to show Interface can be extended.
 
 # Abstract class:
 A class with a pure virtual function ie, an abstract method is termed as Abstract class.In java, however the class has to be declared with abstract keyword to make it Abstract.
 
-**Code4:[AbstractClass1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/AbstractClass1.java):** A program to illustrate use of Abstract class.
+**Code4:[AbstractClass1.java](AbstractClass1.java):** A program to illustrate use of Abstract class.
 
-**Code5:[Abstractclass2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/Abstractclass2.java):** A program to show that java allows abstract classes without any abstract method in it.
+**Code5:[Abstractclass2.java](Abstractclass2.java):** A program to show that java allows abstract classes without any abstract method in it.
 ### ABSTRACT CLASS VS INTERFACE:
 
 |**PROPERTIES**|**ABSTRACT CLASS**|**INTERFACE**|
@@ -445,13 +444,13 @@ A class with a pure virtual function ie, an abstract method is termed as Abstrac
 
 Interfaces declared as member of a class or another interface are called member interface or nested interface.
 
-**Code6:[NestedInterface1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/NestedInterface1.java):** Java program to demonstrate working of interface inside a class. 
+**Code6:[NestedInterface1.java](NestedInterface1.java):** Java program to demonstrate working of interface inside a class. 
 
-**Code7:[NestedInterface2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/NestedInterface2.java):** // Java program to demonstrate protected specifier for nested interface. 
+**Code7:[NestedInterface2.java](NestedInterface2.java):** // Java program to demonstrate protected specifier for nested interface. 
 
-**Code8:[NestedInterface3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/NestedInterface3.java):** Java program to demonstrate working of interface inside another interface. 
+**Code8:[NestedInterface3.java](NestedInterface3.java):** Java program to demonstrate working of interface inside another interface. 
 
-**Code9:[NestedInterface4.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Interface/NestedInterface4.java):** Java program to demonstrate an interface cannot have non-public member interface. 
+**Code9:[NestedInterface4.java](NestedInterface4.java):** Java program to demonstrate an interface cannot have non-public member interface. 
 
 # NESTED CLASSES:
 
@@ -473,17 +472,17 @@ Inner class are of two categories:
 
         2.Anonymous Inner class:It is an inner class without a name and for which only a single object is created.
         
-**PACKAGE:[NestedClass](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/NestedClass):**
+**PACKAGE:[NestedClass](NestedClass):**
 
-**Code1:[NestedClass1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/NestedClass/NestedClass1.java):** A Java Program to illustrate static nested class.
+**Code1:[NestedClass1.java](NestedClass1.java):** A Java Program to illustrate static nested class.
 
-**Code2:[NestedClass2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/NestedClass/NestedClass2.java):** A Java Program to illustrate non-static nested class(inner class).
+**Code2:[NestedClass2.java](NestedClass2.java):** A Java Program to illustrate non-static nested class(inner class).
 
-**Code3:[NestedClass3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/NestedClass/NestedClass3.java):** A Java Program to illustrate local inner class inside a method.
+**Code3:[NestedClass3.java](NestedClass3.java):** A Java Program to illustrate local inner class inside a method.
 
-**Code4:[NestedClass4.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/NestedClass/NestedClass4.java):** A Java Program to illustrate local inner class inside an if clause.
+**Code4:[NestedClass4.java](NestedClass4.java):** A Java Program to illustrate local inner class inside an if clause.
 
-**Code5:[NestedClass5.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/NestedClass/NestedClass5.java):** A Java Program to illustrate anonymous inner class.
+**Code5:[NestedClass5.java](NestedClass5.java):** A Java Program to illustrate anonymous inner class.
 
 
 **JAVA ACCESS MODIFIERS:**
@@ -519,45 +518,45 @@ Inheritance is an important pillar of OOP(Object Oriented Programming). It is th
 **4.Multiple Inheritence:** In Multiple inheritance ,one class can have more than one superclass and inherit features from all parent classes.Java does not support multiple inheritance with classes. In java, we can achieve multiple inheritance only through Interfaces.
 Multiple inheritance is not supported by Java using classes , handling the complexity that causes due to multiple inheritance is very complex. It creates problem during various operations like casting, constructor chaining etc 
 
-**PACKAGE:[Inheritence](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Inheritence):** 
+**PACKAGE:[Inheritence](Inheritence):** 
 
-**Code1: [ObjectCreation.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Inheritence/ObjectCreation.java):** Code shows that super class and sub class constructors refer to the same objects.
+**Code1: [ObjectCreation.java](ObjectCreation.java):** Code shows that super class and sub class constructors refer to the same objects.
 
-**Code2: [SingleInheritence.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Inheritence/SingleInheritence.java):** Code to demostrate how Single Inheritence works.
+**Code2: [SingleInheritence.java](SingleInheritence.java):** Code to demostrate how Single Inheritence works.
 
-**Code3: [MultilevelInheritence.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Inheritence/MultilevelInheritence.java):** Code to demonstrate how Multilevel Inheritence works.
+**Code3: [MultilevelInheritence.java](MultilevelInheritence.java):** Code to demonstrate how Multilevel Inheritence works.
 
-**Code4: [HierarchicalInheritance.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Inheritence/HierarchicalInheritance.java):** Code to demonstrate how Hierarchical Inheritance works.
+**Code4: [HierarchicalInheritance.java](HierarchicalInheritance.java):** Code to demonstrate how Hierarchical Inheritance works.
 
 # this KEYWORD:
 
 'this' works as a reference to the current object, whose method or constructor is being invoked. This keyword can be used to refer to any member of the current object from within an instance method or a constructor.
 
-**PACKAGE: [this keyword](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/this%20keyword)**:
+**PACKAGE: [this keyword](thiskeyword)**:
 
-**Code1: [this1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this1.java):** this used to refer current class instance variables.
+**Code1: [this1.java](this1.java):** this used to refer current class instance variables.
 
-**Code2: [this2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this2.java):** used to invoke current class constructor.This code is an example of **Constructor chaining using this()** discussed above.
+**Code2: [this2.java](this2.java):** used to invoke current class constructor.This code is an example of **Constructor chaining using this()** discussed above.
 
-**Code3: [this3.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this3.java):** used to invoke current class instances.
+**Code3: [this3.java](this3.java):** used to invoke current class instances.
 
-**Code4: [this4.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this4.java):** used as method parameter.
+**Code4: [this4.java](this4.java):** used as method parameter.
 
-**Code5: [this5.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this5.java):** used to invoke current class method.
+**Code5: [this5.java](this5.java):** used to invoke current class method.
 
-**Code6: [this6.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/this%20keyword/this6.java):** used as an argument in constructor call.
+**Code6: [this6.java](this6.java):** used as an argument in constructor call.
 
 # super KEYWORD:
 
 The super keyword in java is a reference variable that is used to refer parent class objects.
 
-**PACKAGE:[super KEYWORD](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Super%20keyword):**
+**PACKAGE:[super KEYWORD](Superkeyword):**
 
-**Code1:[superWithConstructor.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Super%20keyword/superWithConstructor.java):** 'super' keyword can also be used to access the parent class constructor.'super' can call both parametric as well as non parametric constructors depending upon the situation.This code is also an example of **Constructor chaining with super()** discussed above.
+**Code1:[superWithConstructor.java](superWithConstructor.java):** 'super' keyword can also be used to access the parent class constructor.'super' can call both parametric as well as non parametric constructors depending upon the situation.This code is also an example of **Constructor chaining with super()** discussed above.
 
-**Code2:[superWithMethods.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Super%20keyword/superWithMethods.java):** A program to illustrate that whenever a parent and child class have same named methods then to resolve ambiguity we use super keyword.
+**Code2:[superWithMethods.java](superWithMethods.java):** A program to illustrate that whenever a parent and child class have same named methods then to resolve ambiguity we use super keyword.
 
-**Code3:[superWithVariables.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Super%20keyword/superWithVariables.java):** A Program to illustrate how use of 'super' with data member of parent class can avoid ambiguity if derived class and parent class has same data members.
+**Code3:[superWithVariables.java](superWithVariables.java):** A Program to illustrate how use of 'super' with data member of parent class can avoid ambiguity if derived class and parent class has same data members.
 
 # EXCEPTION HANDLING:
 
@@ -565,15 +564,15 @@ An exception is an unwanted or unexcepted event,which occurs during the executio
 
 ### JAVA EXCEPTION HIERARCHY:
 
-![](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/snapshots/Exception_Hierarchy.jpg)
+![](Exception_Hierarchy.jpg)
 
-**PACKAGE:[EXCEPTION HANDLING](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/tree/master/Exception%20Handling)**
+**PACKAGE:[EXCEPTION HANDLING]**
 
-**Code1:[ExceptionHandling1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Exception%20Handling/ExceptionHandling1.java):** A java program to show three ways of printing exception msg using printStackTrace(),toString(),getMessage() methods of Throwable class.
+**Code1:[ExceptionHandling1.java]:** A java program to show three ways of printing exception msg using printStackTrace(),toString(),getMessage() methods of Throwable class.
 
-**Code2:[ControlFlow1.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Exception%20Handling/ControlFlow1.java):** If a statement in try block raised an exception, then the rest of the try block doesn’t execute and control passes to the corresponding catch block. After executing the catch block, the control will be transferred to finally block(if present) and then the rest program will be executed.
+**Code2:[ControlFlow1.java]:** If a statement in try block raised an exception, then the rest of the try block doesn’t execute and control passes to the corresponding catch block. After executing the catch block, the control will be transferred to finally block(if present) and then the rest program will be executed.
 
-**Code3:[ControlFlow2.java](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Exception%20Handling/ControlFlow2.java):** Java program to demonstrate control flow of try-catch-finally clause when exception occur in try block and handled in catch block.
+**Code3:[ControlFlow2.java]:** Java program to demonstrate control flow of try-catch-finally clause when exception occur in try block and handled in catch block.
 
 # MULTITHREADING:
 
@@ -585,7 +584,7 @@ Java's garbage collection is also an example of multithreading.
 
 ### Thread States :Life Cycle Of A Thread:
 
-![](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/snapshots/Thread_life_cycle.jpg)
+![]
 
 A thread lifecycle is divided into five different states, which a thread may go through in its lifetime. Each thread can be in one of the following five states. Let's understand each of these different states in the order in which they are mentioned below -:
 
@@ -622,12 +621,12 @@ When a thread finds itself in any of the above mentioned three states, such even
 
 This is the last state in a thread's lifetime. A thread enters the dead state after it has successfully completed executing the run() method. At this situation, it is considered to be not alive and hence if you try to call start() method on a dead thread, it raises IllegalThreadStateException.
 
-See **[code1](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Multithreading/Multithreading4.java)** and **[code2](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Multithreading/Multithreading5.java)**
+See [code1]
 
 Threads can be created by using two mechanisms :
-1. **Extending the Thread class**:We create a class that extends the java.lang.Thread class. This class overrides the run() method available in the Thread class. A thread begins its life inside run() method. We create an object of our new class and call start() method to start the execution of a thread. Start() invokes the run() method on the Thread object.See **[code](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Multithreading/Multithreading2.java)**
+1. **Extending the Thread class**:We create a class that extends the java.lang.Thread class. This class overrides the run() method available in the Thread class. A thread begins its life inside run() method. We create an object of our new class and call start() method to start the execution of a thread. Start() invokes the run() method on the Thread object.See 
 
-2. **Implementing the Runnable Interface**:We create a new class which implements java.lang.Runnable interface and override run() method. Then we instantiate a Thread object and call start() method on this object.See **[code](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Multithreading/Multithreading3.java)**
+2. **Implementing the Runnable Interface**:We create a new class which implements java.lang.Runnable interface and override run() method. Then we instantiate a Thread object and call start() method on this object.See 
 
 ### Thread Class vs Runnable Interface
 
@@ -647,7 +646,7 @@ Every Java thread has a priority that helps the operating system determine the o
 
 **public final void setPriority(int newPriority)**: java.lang.Thread.setPriority() method changes the priority of thread to the value newPriority. This method throws IllegalArgumentException if value of parameter newPriority goes beyond minimum(1) and maximum(10) limit.
 
-**isAlive():** Returns true or false based on whether Thread is alive or not. See **[Code](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/Multithreading/MultiThreading6.java)**
+**isAlive():** Returns true or false based on whether Thread is alive or not. See **[Code]**
 
 ### SYNCHRONIZATION:
 
@@ -655,8 +654,7 @@ Multi-threaded programs may often come to a situation where multiple threads try
 
 So it needs to be made sure by some synchronization method that only one thread can access the resource at a given point of time.
 
-Java provides a way of creating threads and synchronizing their task by using synchronized blocks. Synchronized blocks in Java are marked with the synchronized keyword. A synchronized block in Java is synchronized on some object. All synchronized blocks synchronized on the same object can only have one thread executing inside them at a time. All other threads attempting to enter the synchronized block are blocked until the thread inside the synchronized block exits the block.See [code](https://github.com/disha2sinha/Object-Oriented-Programming-in-Java/blob/master/synchronization.java)
-
+Java provides a way of creating threads and synchronizing their task by using synchronized blocks. Synchronized blocks in Java are marked with the synchronized keyword. A synchronized block in Java is synchronized on some object. All synchronized blocks synchronized on the same object can only have one thread executing inside them at a time. All other threads attempting to enter the synchronized block are blocked until the thread inside the synchronized block exits the block.See 
 
 
 
